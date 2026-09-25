@@ -31,7 +31,7 @@ Historical XAUUSD data with common market fields such as:
 - Close
 - Volume
 
-> The dataset itself is not included in this repository. Add your CSV file to the `data/` folder.
+> This repository includes `data/xauusd_synthetic_demo.csv`, a synthetic demo dataset created only for practice and testing. It is **not real historical market data**.
 
 ## Project Structure
 
@@ -57,8 +57,9 @@ XAUUSD-Data-Analysis/
 pip install -r requirements.txt
 ```
 
-3. Put your XAUUSD CSV file inside the `data/` folder.
+3. The project already includes a synthetic demo dataset in the `data/` folder.
 4. Open the notebook or run the Python script.
+5. Later, you can replace the synthetic file with a real XAUUSD dataset.
 
 ## Future Improvements
 
