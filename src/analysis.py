@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Change the file name if your dataset uses a different name.
-file_path = "data/xauusd_historical.csv"
+# Synthetic demo data is used by default. Replace with a real dataset later if you want.
+file_path = "data/xauusd_synthetic_demo.csv"
 
 df = pd.read_csv(file_path)
 
