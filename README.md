@@ -1,28 +1,23 @@
 # XAUUSD Data Analysis
 
-A beginner-friendly data analysis project exploring historical XAUUSD (Gold vs US Dollar) price data using Python.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+
+A beginner-friendly financial-data analysis project built around a clearly labeled **synthetic XAUUSD demo dataset**.
 
 ## Project Goals
 
-- Load and clean historical XAUUSD data
-- Explore OHLC price behavior
-- Calculate daily returns
-- Visualize price trends
-- Examine rolling averages and volatility
-- Build a foundation for future machine learning experiments
-
-## Tools & Libraries
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+- Load and inspect OHLCV-style data
+- Convert and sort dates
+- Calculate daily percentage returns
+- Visualize closing prices
+- Practice financial-data analysis with Python
+- Create a base for future work using real market data
 
 ## Dataset
 
-Historical XAUUSD data with common market fields such as:
+The included file contains **120 synthetic daily observations** with:
 
 - Date
 - Open
@@ -31,14 +26,23 @@ Historical XAUUSD data with common market fields such as:
 - Close
 - Volume
 
-> This repository includes `data/xauusd_synthetic_demo.csv`, a synthetic demo dataset created only for practice and testing. It is **not real historical market data**.
+> This is generated practice data, not real XAUUSD historical market data. No trading conclusions should be drawn from it.
+
+## Tools
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
 ## Project Structure
 
 ```text
 XAUUSD-Data-Analysis/
 ├── data/
-│   └── README.md
+│   ├── README.md
+│   └── xauusd_synthetic_demo.csv
 ├── notebooks/
 │   └── xauusd_analysis.ipynb
 ├── src/
@@ -48,26 +52,32 @@ XAUUSD-Data-Analysis/
 └── README.md
 ```
 
-## How to Run
-
-1. Clone the repository.
-2. Install the required libraries:
+## Run the Project
 
 ```bash
 pip install -r requirements.txt
+python src/analysis.py
 ```
 
-3. The project already includes a synthetic demo dataset in the `data/` folder.
-4. Open the notebook or run the Python script.
-5. Later, you can replace the synthetic file with a real XAUUSD dataset.
+You can also open `notebooks/xauusd_analysis.ipynb` for an interactive version.
 
-## Future Improvements
+## What I Practiced
 
-- Technical indicators
-- Correlation with DXY
-- Market regime analysis
-- Feature engineering
-- Machine learning price-direction experiments
+- Reading CSV data with Pandas
+- Working with dates
+- Sorting time-series data
+- Calculating percentage returns
+- Plotting price data
+- Organizing a data-analysis repository
+
+## Next Steps
+
+- Replace synthetic data with a real public XAUUSD dataset
+- Add moving averages
+- Add volatility analysis
+- Compare XAUUSD with DXY data
+- Add technical indicators
+- Experiment with ML feature engineering
 
 ## Author
 
