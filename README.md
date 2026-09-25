@@ -1,5 +1,8 @@
 # XAUUSD Data Analysis
 
+[![CI](https://github.com/KumailAbbas05/XAUUSD-Data-Analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/KumailAbbas05/XAUUSD-Data-Analysis/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
